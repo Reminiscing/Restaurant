@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Oswald';
+    color: #fff;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 14px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    padding: 15px 30px;   
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3)
+
+}
+
+
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(to top, rgba(85, 74, 14, 0.25), rgba(0, 0, 0, 0.45)), url(img/cover.jpg);
+    background-size: cover;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+}
+
+.navigation li {
+    padding: 25px 25px;
+    display: inline-block;
+    
+}
+
+.navigation li a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: all .2s;
+}
+
+#currentLink {
+    color: #c49a28;
+}
+
+.navigation li a:hover {
+    color: #c49a28;
+}
+
+
+.social-links {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    list-style: none; 
+    
+}
+
+.social-links li {
+    padding: 25px 10px;
+    display: inline;
+    float: left;  
+    
+}
+
+.social-links li a svg {
+    height: 25px;
+    width: 30px;
+    fill: #fff;
+    transition: all .5s;
+}
+
+.social-links li a svg:hover {
+    fill: #c49a28;
+}
+
+.intro {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.intro h1 {
+    font-family: 'Roboto Slab';
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.intro p {
+    color: rgb(228, 228, 228);
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.intro a{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.btnFilled {
+    transition: all .2s;
+    color: #fff;
+    background-color: #c49a28;
+    transition: all .2s ease;
+}
+
+.btnFilled:hover {
+    background-color: #b68f25;
+    transform: translateY(-1.8px)
+}
+
+.btnFilled:active {
+    transform: translateY(0);
+}
+
+.featuredShortcut {
+    position: absolute;
+    top: 93%;
+    left: 70%;
+    text-transform: uppercase;
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    transition: all .5s ease;
+}
+
+.featuredShortcut a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+.featuredShortcut:hover {
+  transform: scale(1.05);
+}
+
