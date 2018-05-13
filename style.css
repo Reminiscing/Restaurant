@@ -57,6 +57,8 @@ body {
 
 #currentLink {
     color: #c49a28;
+    border-bottom: 2.8px solid #c49a28;
+    padding-bottom: 3px;
 }
 
 .navigation li a:hover {
